@@ -1,0 +1,10 @@
+-p C:\Program Files\dotnet\dotnet.exe
+-pidFile C:\tempft\Nova pasta\SistemaVendas\SistemaVendas\SistemaVendas\bin\IISSupport\pidfile.txt
+-wd C:\tempft\Nova pasta\SistemaVendas\SistemaVendas\SistemaVendas
+-a exec "C:\tempft\Nova pasta\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp2.0\SistemaVendas.dll"
+-wbe Global\Build30ad9d30-d9aa-4a92-9253-d39fafbddb78
+-lse Global\Launch2adba5fe-d333-47cb-9665-ac3f94219ead
+-pipe 130addd7-cf84-4eb5-8ec3-19b8012ad630
+-pr SistemaVendas
+-owningPid 27812
+-env ASPNETCORE_CONTENTROOT=C:\tempft\Nova pasta\SistemaVendas\SistemaVendas\SistemaVendas|ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.ApplicationInsights.HostingStartup|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|
