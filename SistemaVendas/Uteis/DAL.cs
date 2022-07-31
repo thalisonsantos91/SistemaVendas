@@ -14,7 +14,7 @@ namespace SistemaVendas.Uteis
         private static string Database = "sistema_venda";
         private static string User = "root";
         private static string Password = "root";
-        private static string ConnectionString = $"Server={Server}; Database={Database};Uid={User};Pwd={Password};Sslmode=none;Charset=utf8;";
+        private static string ConnectionString = $"$"Server=basesantoss.mysql.database.azure.com; Port=3306; Database=sistema_venda; Uid=basesantos@basesantoss; Pwd=@Thali160391;";        
         private static MySqlConnection Connection;
 
         public DAL()
